@@ -1,0 +1,163 @@
+@import url("../../whitespaces-reset.css");
+
+body {
+  font: normal 28px/36px "Helvetica", Arial, sans-serif;
+
+  background: #dddada;
+
+}
+
+main {
+  width: 680px;
+  background: #ffffff;
+  margin: 20px auto;
+  border: 3px solid black;
+  padding: 0 10px 5px 10px;
+  box-sizing: border-box;
+}
+
+header {
+  border-bottom: 12px solid black;
+}
+header dd {
+  padding: 3px 0;
+}
+
+h1{
+  font-size: 90px;
+  line-height: 100px;
+  text-align: justify;
+  font-weight: 500;
+
+}
+
+h1, h2, h3 {
+   font-family: "Franklin Gothic Heavy", Helvetica, Arial, sans-serif;
+}
+
+p {
+  text-align: justify;
+  display: inline-block;
+}
+
+hr {
+  height: 25px;
+  border: none;
+  background: black;
+  margin: 10px 0;
+}
+
+
+
+dt p, table:first-of-type thead th {
+  font-family: "Franklin Gothic Heavy", Helvetica, Arial, sans-serif;
+
+
+  font-weight: 400;
+  margin:0 0 0px 0;
+}
+
+dt {
+   border-bottom: 1px solid black;
+}
+
+h2 {
+  font-size: 32px;
+  display: inline-block;
+  font-weight: 400;
+}
+
+h2 + p {
+  padding-left: 8px;
+}
+
+.right {
+  float:  right;
+}
+main:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.left p{
+  padding-left: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+
+}
+table th, td {
+  padding-bottom: 3px;
+}
+
+thead tr {
+  text-align: right;
+}
+
+table:first-of-type tbody {
+  border-bottom: 25px solid black;
+}
+
+tbody th, td {
+border-bottom: 1px solid black;
+}
+
+tbody th {
+  text-align: left;
+  font: inherit;
+}
+
+table:first-of-type tbody p {
+  font-family: "Franklin Gothic Heavy", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+tbody td:last-of-type, tfoot td:last-of-type {
+  text-align: right;
+}
+
+tfoot tr:last-of-type, table:last-of-type {
+    font-size: 24px;
+  line-height: 26px;
+  color: #343333;
+
+}
+
+tfoot tr:last-of-type td{
+  text-align: left;
+   border: none;
+   padding-top: 10px;
+}
+
+tfoot tr:last-of-type td:first-of-type{
+  vertical-align: top;
+  text-align: right;
+}
+
+.indent {
+  min-width: 20px;
+  text-indent: 20px;
+  border: none;
+}
+
+table:last-of-type th {
+  font-weight: normal;
+  border-bottom: 1px solid black;
+}
+
+table:last-of-type th, table:last-of-type td{
+  text-align: left;
+
+}
+
+table:last-of-type td{
+  border: none;
+}
